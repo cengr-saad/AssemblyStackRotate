@@ -1,0 +1,3 @@
+".\Objects\in.obj" 
+TO ".\Objects\in1" 
+PRINT(".\Listings\in1.m51")

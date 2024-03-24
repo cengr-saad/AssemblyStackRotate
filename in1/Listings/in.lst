@@ -1,0 +1,32 @@
+A51 MACRO ASSEMBLER  IN                                                                   05/27/2022 11:41:10 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\in.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE in.a51 SET(SMALL) DEBUG PRINT(.\Listings\in.lst) OBJECT(.\Objects\in.ob
+                      j) EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     ORG 0H
+  001E                 2             COUNT EQU 30
+0000 741E              3                     MOV A, #COUNT
+0002 75F004            4                     MOV B, #4
+0005 84                5                     DIV AB
+                       6                     END
+A51 MACRO ASSEMBLER  IN                                                                   05/27/2022 11:41:10 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+B. . . . . . . . .  D ADDR   00F0H   A   
+COUNT. . . . . . .  N NUMB   001EH   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)
